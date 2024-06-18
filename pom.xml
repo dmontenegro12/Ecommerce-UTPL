@@ -16,7 +16,7 @@
 	<description>Curso de Spring proyecto ecommerce</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		 <sonar.organization>utpl</sonar.organization>
  		 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
@@ -66,6 +66,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>4.8.0.12029</version> <!-- Reemplaza con la versión más reciente compatible -->
+        </plugin>
 		</plugins>
 	</build>
 
