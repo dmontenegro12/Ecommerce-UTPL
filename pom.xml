@@ -65,12 +65,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>4.8.0.12029</version> <!-- Reemplaza con la versión más reciente compatible -->
-        </plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+            			<artifactId>sonar-maven-plugin</artifactId>
+            			<version>4.8.0.12029</version> <!-- Reemplaza con la versión más reciente compatible -->
+        		</plugin>
 		</plugins>
 	</build>
 
